@@ -13,7 +13,7 @@
     border-color: black;
 }
 
-.flex-container .box {
+.flex-container .hovered {
     flex: 1 1 0%;
     background-color: black;
     height: 70px;
