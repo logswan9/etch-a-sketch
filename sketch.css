@@ -1,4 +1,7 @@
 /* <div id="container" class="flex-container"> */
+body {
+    background-color: black;
+}
 
 .flex-container {
     display: flex;
@@ -6,7 +9,7 @@
 
 .flex-container div {
     flex: 1 1 0%;
-    background-color: red;
+    background-color: white;
     height: 70px;
     border: 2px;
     border-style: solid;

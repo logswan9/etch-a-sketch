@@ -23,8 +23,12 @@ function setGrid (gridSize) {
             var div = document.createElement("div");
             //div.className = "box";
             innerContainerDiv.appendChild(div);
+            div.style.opacity = "1.0";
             div.addEventListener('mouseover', (event) => {
-                event.target.className = "hovered";
+                //event.target.className = "hovered";
+                event.target.style.backgroundColor="rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")";
+                console.log(event.target.style.opacity);
+                event.target.style.opacity = event.target.style.opacity - 0.1;
             });
         
         }
